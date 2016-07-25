@@ -13,4 +13,15 @@ Root structure:
 - `autorun.brs` - Presumibly a startup script
 - `current-sync.xml` - manifest of what projects to download and run. This appears to be everything necessary for connection rules (where to go to download a future sync and credentials to do so), what projects to download (instructions on how to run a project - itself an xml file), media assets for a presentation, and the schedule which each presentation runs for
 
-**Don't put any additional files or folders into the presentation folder** when it gets written to disk. It's worth noting that the HD1020 units seem to crash whenever there's other content on there (i.e. my silly `kiddie_pool/` folders with the normalized files inside the `pool/` directory).
+**Don't put any additional files or folders into the presentation folder** when it gets written to disk. It's worth noting that the HD1020 units seem to crash whenever there's other content on there (i.e. my silly `kiddie_pool/` folders with the normalized files inside the `pool/` directory). Not sure if this is true for networked mode, but it sure is true when it's running direct from an SDCard.
+
+# Differences between publishing to simple network vs writing to sdcard
+
+The good news here is that the system structure for a networked presentation appears to be pretty close to the SDcard.
+
+<table>
+  <tr>
+    <th>Local Mode (SDcard)</th>
+    <th>Network Mode</th>
+  </tr>
+  <tr>
