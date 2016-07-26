@@ -71,3 +71,29 @@ From [Brightscript object docs](http://docs.brightsign.biz/display/DOC/roVideoPl
 > * VideoHeight: The height of the video (in pixels)
 > * VideoAspectRatio: The aspect ratio of the video
 > * VideoDuration: The duration of the video
+
+## Brightsign Support Note:
+> I'm sure you're already aware that the players don't need (and in almost all cases should not have) inbound access from the Internet, so that's the last I'm going to mention of it unless you ask. :)
+> 
+> If your content is only video and you don't need separate audio for each display, you might want to consider using a BrightWall. BrightWall might not have existing back when you did your initial installation.
+> 
+> With a BrightWall, you would just set up a single Regular BrightWall Presentation set up for the 50 displays (the row/column dimensions don't really matter for this kind of use), and you can assign video content to each display and publish it as a single project though you do have to tell it which screen "maps" to which unit, though most times it remembers.
+> 
+> That said, in response to your usage scenario, the current-sync.xml is the "sync spec" and it contains all the files for the presentation and their download locations. Files within the pool folder are stored by their SHA-1 hash value, in subfolders corresponding to the last two hash digits. So, if a file's hash ends in cd, it would be in /pool/c/d stored.
+> 
+> However, this only matters to the associated autorun which downloads the files per the sync spec, and when everything has completed downloading, it interprets the autoplay file for the presentation.
+> 
+> So unless you're authoring with BrightAuthor and can deliver an autoplay file that the core autorun can interpret, it's probably not much use to create a sync spec outside of just swapping content in a presentation. It would get a bunch of files downloaded, but not do anything after that.
+> 
+> The probe comes from ffprobe and is used as a hinting mechanism, again for the autorun+autoplay combination to display content.
+> 
+> Depending on the complexity of what you intend to display it might be easier to just use a data feed to populate a state.
+> 
+> The core question is, how do you envision the content the players are showing? I get that they should all be in sync, but are they all playing simple video, or are some of them showing content in a different layout, with additional information like time or a schedule?
+> 
+> Once we have a better understanding of that, we can make more recommendations.
+> 
+> // Brandon -- --- -- --- ---
+> TIP: If you can't find what you're looking for in our support section, try using Google to search our site:
+> Search for _search_terms_ site:brightsign.biz
+> For example, supported touchscreens site:brightsign.biz
