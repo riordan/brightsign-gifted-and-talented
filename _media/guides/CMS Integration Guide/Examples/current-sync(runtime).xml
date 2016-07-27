@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sync version="1.0" name="Simple Networking">
+  <meta>
+    <client>
+      <base>http://www.brightsign.com/files</base>
+      <next>/current-sync.xml</next>
+      <event>EVENT</event>
+      <error>ERROR</error>
+      <deviceerror>DEVICEERROR</deviceerror>
+      <uploadusage>UPLOADUSAGE</uploadusage>
+      <getfile>GETFILE</getfile>
+      <uploadlogs>loghandler.php</uploadlogs>
+      <timeBetweenNetConnects>300</timeBetweenNetConnects>
+      <contentDownloadsRestricted>no</contentDownloadsRestricted>
+      <contentDownloadRangeStart>0</contentDownloadRangeStart>
+      <contentDownloadRangeLength>0</contentDownloadRangeLength>
+      <playbackLoggingEnabled>yes</playbackLoggingEnabled>
+      <eventLoggingEnabled>yes</eventLoggingEnabled>
+      <diagnosticLoggingEnabled>yes</diagnosticLoggingEnabled>
+      <stateLoggingEnabled>yes</stateLoggingEnabled>
+      <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
+      <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
+      <uploadLogFilesTime>0</uploadLogFilesTime>
+      <enableSerialDebugging>True</enableSerialDebugging>
+      <enableSystemLogDebugging>True</enableSystemLogDebugging>
+    </client>
+    <server>
+      <account>ACCOUNT</account>
+      <user>un</user>
+      <password>pw</password>
+      <enableUnsafeAuthentication>False</enableUnsafeAuthentication>
+      <group>Simple Networking</group>
+    </server>
+  </meta>
+  <files>
+    <download>
+      <name>autoplay-ExamplePresentation.xml</name>
+      <hash method="SHA1">af09ead440b507e3247edc98f375a309a0aa0cd7</hash>
+      <size>15264</size>
+      <link>http://www.brightsign.com/files/pool/d/7/sha1-af09ead440b507e3247edc98f375a309a0aa0cd7</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>ExamplePresentation.bml</name>
+      <hash method="SHA1">182b1e586a7e7ba94df4518d3f90c69d52cbdb99</hash>
+      <size>12420</size>
+      <link>http://www.brightsign.com/files/pool/9/9/sha1-182b1e586a7e7ba94df4518d3f90c69d52cbdb99</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>Image 1.jpg</name>
+      <hash method="SHA1">5307639028098d0cfcba67563fa31b53113d71dc</hash>
+      <size>555413</size>
+      <link>http://www.brightsign.com/files/pool/d/c/sha1-5307639028098d0cfcba67563fa31b53113d71dc</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>Audio Clip 1.mp4</name>
+      <hash method="SHA1">3a6b47d617c35d1f9121693b2573f668e84a13ba</hash>
+      <size>43568156</size>
+      <link>http://www.brightsign.com/files/pool/b/a/sha1-3a6b47d617c35d1f9121693b2573f668e84a13ba</link>
+      <probe>1|TT=MP4|IX=Y|AC=AAC|ACH=2|ASR=44100|AP=2|AD=0001fc4c|VC=H264|VP=1|W=1280|H=720|VD=0001fc20|D=0001fc4b</probe>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>Image 2.jpg</name>
+      <hash method="SHA1">07dc622b46019d706bb688881aec77509b20e9f8</hash>
+      <size>61130</size>
+      <link>http://www.brightsign.com/files/pool/f/8/sha1-07dc622b46019d706bb688881aec77509b20e9f8</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>autorun.brs</name>
+      <hash method="SHA1">bc354759ae87beb8188e6179f481b48bf1dc64bd</hash>
+      <size>1001574</size>
+      <link>http://www.brightsign.com/files/pool/b/d/sha1-bc354759ae87beb8188e6179f481b48bf1dc64bd</link>
+      <group>script</group>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>autoschedule.xml</name>
+      <hash method="SHA1">4791d5c60480846f482ea6183eb41dcf720ddb8e</hash>
+      <size>1002</size>
+      <link>http://www.brightsign.com/files/pool/8/e/sha1-4791d5c60480846f482ea6183eb41dcf720ddb8e</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>resources.txt</name>
+      <hash method="SHA1">c153d933e1c25734e2f2dd5c1abd5ad106b70f4b</hash>
+      <size>2302</size>
+      <link>http://www.brightsign.com/files/pool/4/b/sha1-c153d933e1c25734e2f2dd5c1abd5ad106b70f4b</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>autoplugins.brs</name>
+      <hash method="SHA1">a0acb3e76c85e48d326e802428b23f0325667410</hash>
+      <size>146</size>
+      <link>http://www.brightsign.com/files/pool/1/0/sha1-a0acb3e76c85e48d326e802428b23f0325667410</link>
+      <group>script</group>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>_deviceWebPage.html</name>
+      <hash method="SHA1">ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</hash>
+      <size>116438</size>
+      <link>http://www.brightsign.com/files/pool/d/f/sha1-ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>_deviceIdWebPage.html</name>
+      <hash method="SHA1">a3eeb8009617a56fa412802e061ec931a6bd0fb1</hash>
+      <size>117474</size>
+      <link>http://www.brightsign.com/files/pool/b/1/sha1-a3eeb8009617a56fa412802e061ec931a6bd0fb1</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <delete>
+      <pattern>*.brs</pattern>
+    </delete>
+    <delete>
+      <pattern>*.rok</pattern>
+    </delete>
+    <delete>
+      <pattern>*.bsfw</pattern>
+    </delete>
+    <ignore>
+      <pattern>*</pattern>
+    </ignore>
+  </files>
+</sync>

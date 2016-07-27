@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sync version="1.0" name="Simple Networking">
+  <meta>
+    <client>
+      <base>http://www.brightsign.com/files</base>
+      <next>/current-sync.xml</next>
+      <event>EVENT</event>
+      <error>ERROR</error>
+      <deviceerror>DEVICEERROR</deviceerror>
+      <uploadusage>UPLOADUSAGE</uploadusage>
+      <nowplaying>NOWPLAYING</nowplaying>
+      <getfile>GETFILE</getfile>
+      <uploadlogs>loghandler.php</uploadlogs>
+      <timezone>PST</timezone>
+      <unitName>Test Device</unitName>
+      <unitNamingMethod>unitNameOnly</unitNamingMethod>
+      <unitDescription />
+      <timeBetweenNetConnects>300</timeBetweenNetConnects>
+      <contentDownloadsRestricted>no</contentDownloadsRestricted>
+      <contentDownloadRangeStart>0</contentDownloadRangeStart>
+      <contentDownloadRangeLength>0</contentDownloadRangeLength>
+      <timeBetweenHeartbeats>300</timeBetweenHeartbeats>
+      <heartbeatsRestricted>no</heartbeatsRestricted>
+      <specifyHostname>no</specifyHostname>
+      <useProxy>no</useProxy>
+      <useWireless>no</useWireless>
+      <timeServer>http://time.brightsignnetwork.com</timeServer>
+      <useDHCP>yes</useDHCP>
+      <rateLimitModeOutsideWindow>unlimited</rateLimitModeOutsideWindow>
+      <rateLimitRateOutsideWindow>0</rateLimitRateOutsideWindow>
+      <rateLimitModeInWindow>unlimited</rateLimitModeInWindow>
+      <rateLimitRateInWindow>0</rateLimitRateInWindow>
+      <rateLimitModeInitialDownloads>unlimited</rateLimitModeInitialDownloads>
+      <rateLimitRateInitialDownloads>0</rateLimitRateInitialDownloads>
+      <lwsConfig>status</lwsConfig>
+      <lwsUserName>admin</lwsUserName>
+      <lwsPassword></lwsPassword>
+      <lwsEnableUpdateNotifications>yes</lwsEnableUpdateNotifications>
+      <playbackLoggingEnabled>yes</playbackLoggingEnabled>
+      <eventLoggingEnabled>yes</eventLoggingEnabled>
+      <stateLoggingEnabled>yes</stateLoggingEnabled>
+      <diagnosticLoggingEnabled>yes</diagnosticLoggingEnabled>
+      <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
+      <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
+      <uploadLogFilesTime>0</uploadLogFilesTime>
+      <networkConnectionPriorityWired>0</networkConnectionPriorityWired>
+      <networkConnectionPriorityWireless>1</networkConnectionPriorityWireless>
+      <contentDataTypeEnabledWired>True</contentDataTypeEnabledWired>
+      <textFeedsDataTypeEnabledWired>True</textFeedsDataTypeEnabledWired>
+      <healthDataTypeEnabledWired>True</healthDataTypeEnabledWired>
+      <mediaFeedsDataTypeEnabledWired>True</mediaFeedsDataTypeEnabledWired>
+      <logUploadsDataTypeEnabledWired>True</logUploadsDataTypeEnabledWired>
+      <dwsEnabled>yes</dwsEnabled>
+      <dwsPassword></dwsPassword>
+      <idleScreenColor>FFB164FF</idleScreenColor>
+      <networkDiagnosticsEnabled>False</networkDiagnosticsEnabled>
+      <testEthernetEnabled>True</testEthernetEnabled>
+      <testWirelessEnabled>False</testWirelessEnabled>
+      <testInternetEnabled>True</testInternetEnabled>
+    </client>
+    <server>
+      <account>ACCOUNT</account>
+      <user>un</user>
+      <password>pw</password>
+      <enableUnsafeAuthentication>False</enableUnsafeAuthentication>
+      <group>Simple Networking</group>
+    </server>
+  </meta>
+  <files />
+</sync>

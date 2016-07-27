@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BrightAuthor version="5" BrightAuthorVersion="3.8.0.30" type="publish">
+  <meta>
+    <name>Simple Looping 4</name>
+    <model>XD1230</model>
+    <videoMode>1600x1200x60p</videoMode>
+    <monitorOrientation>Landscape</monitorOrientation>
+    <videoConnector>VGA</videoConnector>
+    <deviceWebPageDisplay>Standard</deviceWebPageDisplay>
+    <alphabetizeVariableNames>True</alphabetizeVariableNames>
+    <delayScheduleChangeUntilMediaEndEvent>False</delayScheduleChangeUntilMediaEndEvent>
+    <htmlEnableJavascriptConsole>False</htmlEnableJavascriptConsole>
+    <htmlEnableAppCache>False</htmlEnableAppCache>
+    <htmlAppCacheSize>0</htmlAppCacheSize>
+    <backgroundScreenColor a="255" r="0" g="0" b="0" />
+    <monitorOverscan>noOverscan</monitorOverscan>
+    <gpio0>input</gpio0>
+    <gpio1>input</gpio1>
+    <gpio2>input</gpio2>
+    <gpio3>input</gpio3>
+    <gpio4>input</gpio4>
+    <gpio5>input</gpio5>
+    <gpio6>input</gpio6>
+    <gpio7>input</gpio7>
+    <BP900AConfigureAutomatically>True</BP900AConfigureAutomatically>
+    <BP900BConfigureAutomatically>True</BP900BConfigureAutomatically>
+    <BP900CConfigureAutomatically>True</BP900CConfigureAutomatically>
+    <BP200AConfigureAutomatically>True</BP200AConfigureAutomatically>
+    <BP200BConfigureAutomatically>True</BP200BConfigureAutomatically>
+    <BP200CConfigureAutomatically>True</BP200CConfigureAutomatically>
+    <BP900AConfiguration>0</BP900AConfiguration>
+    <BP900BConfiguration>0</BP900BConfiguration>
+    <BP900CConfiguration>0</BP900CConfiguration>
+    <BP200AConfiguration>0</BP200AConfiguration>
+    <BP200BConfiguration>0</BP200BConfiguration>
+    <BP200CConfiguration>0</BP200CConfiguration>
+    <SerialPortConfiguration>
+      <port>0</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>1</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>2</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>3</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>4</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <SerialPortConfiguration>
+      <port>5</port>
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <protocol>ASCII</protocol>
+      <sendEol>CR</sendEol>
+      <receiveEol>CR</receiveEol>
+      <invertSignals>False</invertSignals>
+      <connectedDevice>None</connectedDevice>
+    </SerialPortConfiguration>
+    <udpDestinationAddressType>IPAddress</udpDestinationAddressType>
+    <udpDestinationAddress>255.255.255.255</udpDestinationAddress>
+    <udpDestinationPort>5000</udpDestinationPort>
+    <udpReceiverPort>5000</udpReceiverPort>
+    <flipCoordinates>false</flipCoordinates>
+    <touchCursorDisplayMode>auto</touchCursorDisplayMode>
+    <language>English</language>
+    <languageKey>eng</languageKey>
+    <audio1MinVolume>0</audio1MinVolume>
+    <audio1MaxVolume>100</audio1MaxVolume>
+    <audio2MinVolume>0</audio2MinVolume>
+    <audio2MaxVolume>100</audio2MaxVolume>
+    <audio3MinVolume>0</audio3MinVolume>
+    <audio3MaxVolume>100</audio3MaxVolume>
+    <usbMinVolume>0</usbMinVolume>
+    <usbMaxVolume>100</usbMaxVolume>
+    <hdmiMinVolume>0</hdmiMinVolume>
+    <hdmiMaxVolume>100</hdmiMaxVolume>
+    <spdifMinVolume>0</spdifMinVolume>
+    <spdifMaxVolume>100</spdifMaxVolume>
+    <inactivityTimeout>False</inactivityTimeout>
+    <inactivityTime>30</inactivityTime>
+    <autoCreateMediaCounterVariables>False</autoCreateMediaCounterVariables>
+    <resetVariablesOnPresentationStart>False</resetVariablesOnPresentationStart>
+    <networkedVariablesUpdateInterval>300</networkedVariablesUpdateInterval>
+    <userVariables>
+    </userVariables>
+    <liveDataFeeds>
+    </liveDataFeeds>
+    <scriptPlugins>
+    </scriptPlugins>
+    <htmlSites>
+    </htmlSites>
+    <presentationIdentifiers>
+    </presentationIdentifiers>
+    <DirectoryLocations>
+      <AllFiles>C:\BrightSign Content</AllFiles>
+      <Image>C:\BrightSign Content</Image>
+      <Video>C:\BrightSign Content</Video>
+      <Audio>C:\BrightSign Content</Audio>
+      <Media>C:\BrightSign Content\Custom Presentations\PlayFile Tests\Sample Playfile Content Repository</Media>
+      <Fonts>C:\BrightSign Content</Fonts>
+      <HTML>C:\BrightSign Content</HTML>
+      <PluginScriptsAutoruns>C:\BrightSign Content</PluginScriptsAutoruns>
+      <CSV>C:\BrightSign Content</CSV>
+      <RFChannelScan>C:\BrightSign Content</RFChannelScan>
+      <Schedules>C:\BrightSign Content</Schedules>
+      <ReplacementMedia>C:\BrightSign Content</ReplacementMedia>
+      <UserVariables>C:\BrightSign Content</UserVariables>
+      <XModemFiles>C:\BrightSign Content</XModemFiles>
+      <ImportCommandFiles>C:\BrightSign Content</ImportCommandFiles>
+    </DirectoryLocations>
+  </meta>
+  <zones>
+    <zone>
+      <name>Video or Images</name>
+      <x>0</x>
+      <y>0</y>
+      <width>1600</width>
+      <height>1200</height>
+      <type>VideoOrImages</type>
+      <id>1</id>
+      <zoneSpecificParameters>
+        <viewMode>Scale to Fill</viewMode>
+        <audioOutput>Analog Audio</audioOutput>
+        <audioMode>Multichannel Surround</audioMode>
+        <audioMapping>Audio-1</audioMapping>
+        <analogOutput>PCM</analogOutput>
+        <analog2Output>None</analog2Output>
+        <analog3Output>None</analog3Output>
+        <hdmiOutput>None</hdmiOutput>
+        <spdifOutput>None</spdifOutput>
+        <usbOutput>None</usbOutput>
+        <audioMixMode>Stereo</audioMixMode>
+        <videoVolume>100</videoVolume>
+        <audioVolume>100</audioVolume>
+        <minimumVolume>0</minimumVolume>
+        <maximumVolume>100</maximumVolume>
+        <liveVideoInput>S-Video</liveVideoInput>
+        <liveVideoStandard>NTSC-M</liveVideoStandard>
+        <brightness>128</brightness>
+        <contrast>64</contrast>
+        <saturation>64</saturation>
+        <hue>0</hue>
+        <zOrderFront>True</zOrderFront>
+        <imageMode>Scale to Fit</imageMode>
+      </zoneSpecificParameters>
+      <playlist>
+        <name>Playlist 0</name>
+        <type>interactive</type>
+        <states>
+          <initialState>Image 1.jpg</initialState>
+          <state>
+            <name>Image 1.jpg</name>
+            <imageItem>
+              <file name="Image 1.jpg" />
+              <fileIsLocal>True</fileIsLocal>
+              <slideDelayInterval>3</slideDelayInterval>
+              <slideTransition>No effect</slideTransition>
+            </imageItem>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+          </state>
+          <state>
+            <name>Image 2.jpg</name>
+            <imageItem>
+              <file name="Image 2.jpg" />
+              <fileIsLocal>True</fileIsLocal>
+              <slideDelayInterval>3</slideDelayInterval>
+              <slideTransition>No effect</slideTransition>
+            </imageItem>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+          </state>
+          <state>
+            <name>Video Clip 1.mpg</name>
+            <videoItem>
+              <file name="Video Clip 1.mpg" />
+              <fileIsLocal>True</fileIsLocal>
+              <videoDisplayMode>2D</videoDisplayMode>
+            </videoItem>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+          </state>
+          <state>
+            <name>Audio Clip 1.mp3</name>
+            <audioItem>
+              <file name="Audio Clip 1.mp3" />
+              <fileIsLocal>True</fileIsLocal>
+            </audioItem>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+          </state>
+          <state>
+            <name>Audio Clip 2.mp3</name>
+            <audioItem>
+              <file name="Audio Clip 2.mp3" />
+              <fileIsLocal>True</fileIsLocal>
+            </audioItem>
+            <brightSignCmd>
+              <name>DecrementZoneVolume</name>
+              <customUI>True</customUI>
+              <command>
+                <name>decrementZoneVolume</name>
+                <parameter>
+                  <name>zoneId</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>1</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>volume</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>20</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <brightSignExitCommands>
+            </brightSignExitCommands>
+          </state>
+          <transition>
+            <sourceMediaState>Image 1.jpg</sourceMediaState>
+            <userEvent>
+              <name>timeout</name>
+              <parameters>
+                <parameter>5</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>Image 2.jpg</targetMediaState>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>Image 2.jpg</sourceMediaState>
+            <userEvent>
+              <name>timeout</name>
+              <parameters>
+                <parameter>10</parameter>
+              </parameters>
+            </userEvent>
+            <targetMediaState>Video Clip 1.mpg</targetMediaState>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>Video Clip 1.mpg</sourceMediaState>
+            <userEvent>
+              <name>mediaEnd</name>
+              <parameters>
+                <parameter />
+              </parameters>
+            </userEvent>
+            <targetMediaState>Audio Clip 1.mp3</targetMediaState>
+            <brightSignCmd>
+              <name>SetAllAudioOutputs</name>
+              <customUI>True</customUI>
+              <command>
+                <name>setAllAudioOutputs</name>
+                <parameter>
+                  <name>zoneId</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>1</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>analog</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>pcm</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>analog2</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>none</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>analog3</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>none</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>hdmi</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>none</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>spdif</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>none</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>usb</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>pcm</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+              <command>
+                <name>setAudioMode</name>
+                <parameter>
+                  <name>zoneId</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>1</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>mode</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>stereo</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+              <command>
+                <name>configureAudioResources</name>
+              </command>
+            </brightSignCmd>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>Audio Clip 1.mp3</sourceMediaState>
+            <userEvent>
+              <name>mediaEnd</name>
+              <parameters>
+                <parameter />
+              </parameters>
+            </userEvent>
+            <targetMediaState>Audio Clip 2.mp3</targetMediaState>
+            <brightSignCmd>
+              <name>SetConnectorVolume</name>
+              <customUI>True</customUI>
+              <command>
+                <name>setConnectorVolume</name>
+                <parameter>
+                  <name>connector</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>Analog</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>volume</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>50</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+          <transition>
+            <sourceMediaState>Audio Clip 2.mp3</sourceMediaState>
+            <userEvent>
+              <name>mediaEnd</name>
+              <parameters>
+                <parameter />
+              </parameters>
+            </userEvent>
+            <targetMediaState>Image 1.jpg</targetMediaState>
+            <brightSignCmd>
+              <name>SetConnectorVolume</name>
+              <customUI>True</customUI>
+              <command>
+                <name>setConnectorVolume</name>
+                <parameter>
+                  <name>connector</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>Analog</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+                <parameter>
+                  <name>volume</name>
+                  <uiElementName />
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>100</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
+            <assignInputToUserVariable>False</assignInputToUserVariable>
+            <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
+          </transition>
+        </states>
+      </playlist>
+    </zone>
+  </zones>
+</BrightAuthor>

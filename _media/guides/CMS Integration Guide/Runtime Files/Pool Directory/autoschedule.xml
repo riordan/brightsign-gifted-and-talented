@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<autoschedule version="1.0" group="LocalStorageGroup">
+  <scheduledPresentation>
+    <presentationToSchedule>
+      <name>Interactive Test 3</name>
+      <fileName>Interactive Test 3.bpf</fileName>
+      <filePath>C:\BrightSign Content\Interactive Test 3.bpf</filePath>
+    </presentationToSchedule>
+    <dateTime>2014-07-31T00:00:00</dateTime>
+    <duration>1440</duration>
+    <allDayEveryDay>True</allDayEveryDay>
+    <recurrence>False</recurrence>
+    <recurrencePattern>Daily</recurrencePattern>
+    <recurrencePatternDaily>EveryDay</recurrencePatternDaily>
+    <recurrencePatternDaysOfWeek>16</recurrencePatternDaysOfWeek>
+    <recurrenceStartDate>2014-07-31T00:00:00</recurrenceStartDate>
+    <recurrenceGoesForever>True</recurrenceGoesForever>
+    <recurrenceEndDate>2015-07-31T00:00:00</recurrenceEndDate>
+    <interruption>False</interruption>
+  </scheduledPresentation>
+</autoschedule>
