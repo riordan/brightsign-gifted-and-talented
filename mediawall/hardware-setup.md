@@ -59,6 +59,8 @@ See Brightauthor section [TODO] for instructions on running BrightAuthor in a Vi
 
 `The other option is download the firmware directly and put it on a blank SD Card, which I haven't tried yet.`
 
-To patch the Brightsign, unplug it, insert the HD card with the firmware upgrade, and plug the power back in. The upgrade will take several minutes, during which the Upgrade light will flash. If successful, the Brightsign will attempt to delete the new firmware off the SD card once it has completed. It is possible to preserve the firmware upgrade on the SD card by sliding the write protect switch on (usually down). However by turning write protect on, it will trigger an error at the end of the upgrade process, whereby the upgrade and error lights will flash rapidly 12 times; this is ok. Remove the SD card, unplug and replug the Brightsign, and when the info screen pops up, you should see the firmware at the latest version.
+**To patch the Brightsign with an SD Card**, unplug it, insert the HD card with the firmware upgrade, and plug the power back in. The upgrade will take several minutes, during which the Upgrade light will flash. If successful, the Brightsign will attempt to delete the new firmware off the SD card once it has completed. Remove the SD card, unplug and replug the Brightsign, and when the info screen pops up, you should see the firmware at the latest version.
+
+`**Patching multiple Brightsigns with the same SD Card:** It is possible to preserve the firmware upgrade on the SD card by sliding the write protect switch on (usually down). However by turning write protect on, it will trigger an error at the end of the upgrade process, whereby the upgrade and error lights will flash rapidly 12 times; this is ok.`
 
 # Network
