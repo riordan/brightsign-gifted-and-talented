@@ -10,6 +10,20 @@ Each "Frame" consists of:
 * an outer 42" monitor in portrait orientation (tallscreen) connected to a Brightsign over HDMI 1080p
 * 20 - 30 inner monitors of varying sizes and orientations connected to a Brightsign unit over VGA. The monitors come in 8", 10", 12", and 15" sizes and are at a resolution of 1024x768
 
+### Monitors
+There are five types of monitors:
+1. Sharp 42 inch HDTV - portrait - uses Sharp TV Remote
+2. 8 inch monitors -
+3. 10 inch monitors - power over VGA (do not unplug VGA; otherwise will need to repower over remote)
+4. 12 inch monitors - use "wide" remote
+5. 15 inch monitors - use "wide" remote
+
+### Glass and Remotes
+**_Turning on an "Off" monitor is challenging behind the one-way-mirror._** Today, the way to reset an off monitor is with its remote and removing the glass; which is unreliable and often results in triggering another monitor off. Not a fun time.
+
+**We need to work with Marty to create IR extender units for each monitor. These should track to labeled (with ID and remote-type) adjacent mount points underneath the exterior unit and in the cabinet for the interior unit.**
+
+
 ## Updating & documenting
 Before the brightsign units can be used in this installation they must be:
 * Identified and Mapped - tying each BRIGHTSIGN UNIT to its MONITOR
