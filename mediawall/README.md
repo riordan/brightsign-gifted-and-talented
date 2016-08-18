@@ -12,13 +12,6 @@ This guide is divided up into several sections:
 This guide is not yet complete, nor is it organized fully chronologically, so there may be things in other sections that are needed to fully configure the system. For that, I apologize.
 
 
-# System Overview
-## The Art
-The Mediawall consists of 2 "Frames", each composed of a large number of monitors of four sizes, positioned irregularly along a wall, behind reflective glass. //TKTK
-
-## Shows
-
-
 # Rough Setup Steps
 This order may change, but this is the rough sketch of things:
 
@@ -30,3 +23,9 @@ This order may change, but this is the rough sketch of things:
 6. Publish the media content (individual feeds, video) and BrightAuthor presentations to the Synology so it can be picked up by the Brightsigns
 7. Insert the specific SD Card to its corresponding brightsign unit
 8. Hopefully pop champagne to celebrate. Otherwise, start drinking whiskey from the bottle to assist with troubleshooting.
+
+# System Overview
+## The Art
+The Mediawall consists of 2 "Frames", each composed of a large number of monitors of four sizes, positioned irregularly along a wall, behind reflective glass. //TKTK
+
+## Shows
