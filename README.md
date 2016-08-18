@@ -10,6 +10,9 @@ In the entryway to [The Brown Institute's](http://brown.columbia.edu) at Columbi
 
 ![Photo of media wall - I had to rescue this from the Internet Archive; thanks new J-School Web Design](_media/images/outside-wall.jpg)
 
+# Setup Instructions
+Brown Institute Mediawall specific setup is [described in the mediawall folder](mediawall/README.md). This supercedes the PLAN section (below).
+
 # Plan
 _**WARNING**: This doesn't work yet. There's no code. No tests. No progress. Just notes and theory._
 
