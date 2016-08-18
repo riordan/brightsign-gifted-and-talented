@@ -5,7 +5,9 @@ These are to be the design documents for the Brown Institute's Mediawall project
 The edges are very rough.
 
 This guide is divided up into several sections:
-* [Hardware Setup](hardware-setup.md)
+* [Hardware Setup](hardware-setup.md) - which describes the physical system layout (focused around our Brightsign installation), and brightsign hardware setup steps
+* [Network Setup (TKTK)] - Which describes our networking environment, setup steps for the Synology NAS (local file storage and web server for new content), and file organization structure for each of the "shows"
+* [Synchronization](synchronization.md) - Which describes the theory of how we "push" content to each Brightsign unit, and how we keep presentation timing synchronized across multiple Brightsign units
 
 This guide is not yet complete, nor is it organized fully chronologically, so there may be things in other sections that are needed to fully configure the system. For that, I apologize.
 
