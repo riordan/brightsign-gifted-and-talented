@@ -34,10 +34,10 @@ The Mediawall consists of 2 "Frames", each composed of a large number of monitor
 * Inner wall
   * [ ] Get ACCURATE list of MAC addresses to NOC
   * [ ] Get brightsigns on vlan to use proper DHCP and get correct IP address
-  * [ ] Figure out if show data is being transferred to brightsigns at all
-  * [ ] Get a show to play on inner brightsigns
+  * [x] Figure out if show data is being transferred to brightsigns at all
+  * [x] Get a show to play on inner brightsigns
   * [ ] Get Marty to replace burnt out screens (2: 35, 42 - both 10")
-  * [ ] Working Test of a single show over the VLAN network -> synology
+  * [x] Working Test of a single show over the VLAN network -> synology
   * [ ] Create custom presentation template for each screen (Photo + Feed)
   * [ ] Create custom presentation template for each screen (Video + Feed)
 * Outer Wall
@@ -57,3 +57,17 @@ The Mediawall consists of 2 "Frames", each composed of a large number of monitor
   * [ ] Photo folder -> screen feed allocator
   * [ ] Brightsign datafeed format writer
   * [ ] Devops lol
+* Creating Shows
+  * [ ] Create Synology Folder Templates [1-50]
+  * [ ] Create Setup Cards for all units [1-50]
+  * [ ] Create correct orientation show for all units w/ content
+
+You can create the setup cards w/ software patch, even if you don't have all the screens orientations yet.
+  1. Write software to QUICKLY author show content
+  2. Create 3 templates for photos (Landscape - 0, Portrait-left 90, Portrait-right 270)
+  3. Create ALL setup cards and label them
+  4. Inventory outside wall (getting directions)
+  5. Create show wall.yml for correct directions
+  6. Configure each show presentation to be driven by the correct feed w/ correct orientation
+  7. Author show
+  8. Push show contents to each folder and feed
