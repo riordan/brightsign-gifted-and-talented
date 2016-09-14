@@ -29,3 +29,31 @@ This order may change, but this is the rough sketch of things:
 The Mediawall consists of 2 "Frames", each composed of a large number of monitors of four sizes, positioned irregularly along a wall, behind reflective glass. //TKTK
 
 ## Shows
+
+# Active Nextsteps:
+* Inner wall
+  * [ ] Get ACCURATE list of MAC addresses to NOC
+  * [ ] Get brightsigns on vlan to use proper DHCP and get correct IP address
+  * [ ] Figure out if show data is being transferred to brightsigns at all
+  * [ ] Get a show to play on inner brightsigns
+  * [ ] Get Marty to replace burnt out screens (2: 35, 42 - both 10")
+  * [ ] Working Test of a single show over the VLAN network -> synology
+  * [ ] Create custom presentation template for each screen (Photo + Feed)
+  * [ ] Create custom presentation template for each screen (Video + Feed)
+* Outer Wall
+  * [ ] Schedule time w/ marty for assessment + maintainance
+  * [ ] Make map of outer brightsigns (~30)
+    * [ ] UnitID -> Screen placement
+    * [ ] UnitID -> Screen orientation
+    * [ ] UnitID -> Screen size
+    * [ ] UnitID -> MAC address
+  * [ ] Inventory all broken screens
+  * [ ] Patch firmware on all units
+  * [ ]
+* Physical Maintenance (overall)
+  * [ ] Inquire about remotes & IR extenders
+* Software
+  * [ ] Screen schema
+  * [ ] Photo folder -> screen feed allocator
+  * [ ] Brightsign datafeed format writer
+  * [ ] Devops lol

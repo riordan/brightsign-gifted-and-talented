@@ -1,4 +1,4 @@
-Brightsign Synchronization + Content Delivery
+Brightsign  Content Delivery + Synchronization
 =============================================
 
 Synchronizing the Brightsigns has proven to be one of the toughest aspects of this project.
@@ -13,9 +13,10 @@ Synchronizing the Brightsigns has proven to be one of the toughest aspects of th
 ### Hosting Content for Brightsign Shows
 
 ### Setting Brightsigns up in network mode
-* static IP's
+* VLAN DHCP
+ * Ensure disabled static IPs
 
-
+## Show  Structure
 
 
 
