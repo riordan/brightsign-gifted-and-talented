@@ -32,8 +32,8 @@ The Mediawall consists of 2 "Frames", each composed of a large number of monitor
 
 # Active Nextsteps:
 * Inner wall
-  * [ ] Get ACCURATE list of MAC addresses to NOC
-  * [ ] Get brightsigns on vlan to use proper DHCP and get correct IP address
+  * [x] Get ACCURATE list of MAC addresses to NOC
+  * [x] Get brightsigns on vlan to use proper DHCP and get correct IP address
   * [x] Figure out if show data is being transferred to brightsigns at all
   * [x] Get a show to play on inner brightsigns
   * [ ] Get Marty to replace burnt out screens (2: 35, 42 - both 10")
@@ -49,7 +49,21 @@ The Mediawall consists of 2 "Frames", each composed of a large number of monitor
     * [ ] UnitID -> MAC address
   * [ ] Inventory all broken screens
   * [ ] Patch firmware on all units
-  * [ ]
+  * **Marty Day**
+    * Prereqs:
+      * [ ] Demo show made (all same content, synced logo changes as video)
+      * [ ] Each unit gets a custom show w/ custom pickup URL [by default Master 0,1 are HDTVs, 2,3 are screen networks] and tied to a "master". All run from same orientation. Change in show
+      * [ ] SD Cards burnt [0-50] w/ unique names + pickup location URL + labels + latest firmware
+    * Day of:
+      * Patching
+        * [ ] Record MAC addresses -> NOC (read off screens when no SD cards)
+        * [ ] Replace all SD cards w/ new firmware + pickup
+      * Hardware:
+        * [ ] Inventory all broken screens
+        * [ ] Test outer wall brightsigns
+        * [ ] Figure out why 10" screens are failing - white content
+        * [ ] Figure out why other screens are failing - no power?
+    
 * Physical Maintenance (overall)
   * [ ] Inquire about remotes & IR extenders
 * Software
