@@ -30,6 +30,22 @@ The Mediawall consists of 2 "Frames", each composed of a large number of monitor
 
 ## Shows
 
+# Marty Day Next Steps:
+  * Prereqs:
+    * [ ] Demo show made (all same content, synced logo changes as video)
+    * [ ] Each unit gets a custom show w/ custom pickup URL [by default Master 0,1 are HDTVs, 2,3 are screen networks] and tied to a "master". All run from same orientation. Change in show
+    * [ ] SD Cards burnt [0-50] w/ unique names + pickup location URL + labels + latest firmware
+  * Day of:
+    * Patching
+      * [ ] Record MAC addresses -> NOC (read off screens when no SD cards)
+      * [ ] Replace all SD cards w/ new firmware + pickup
+    * Hardware:
+      * [ ] Inventory all broken screens
+      * [ ] Test outer wall brightsigns
+      * [ ] Figure out why 10" screens are failing - white content
+      * [ ] Figure out why other screens are failing - no power?
+
+
 # Active Nextsteps:
 * Inner wall
   * [x] Get ACCURATE list of MAC addresses to NOC
@@ -49,21 +65,6 @@ The Mediawall consists of 2 "Frames", each composed of a large number of monitor
     * [ ] UnitID -> MAC address
   * [ ] Inventory all broken screens
   * [ ] Patch firmware on all units
-  * **Marty Day**
-    * Prereqs:
-      * [ ] Demo show made (all same content, synced logo changes as video)
-      * [ ] Each unit gets a custom show w/ custom pickup URL [by default Master 0,1 are HDTVs, 2,3 are screen networks] and tied to a "master". All run from same orientation. Change in show
-      * [ ] SD Cards burnt [0-50] w/ unique names + pickup location URL + labels + latest firmware
-    * Day of:
-      * Patching
-        * [ ] Record MAC addresses -> NOC (read off screens when no SD cards)
-        * [ ] Replace all SD cards w/ new firmware + pickup
-      * Hardware:
-        * [ ] Inventory all broken screens
-        * [ ] Test outer wall brightsigns
-        * [ ] Figure out why 10" screens are failing - white content
-        * [ ] Figure out why other screens are failing - no power?
-    
 * Physical Maintenance (overall)
   * [ ] Inquire about remotes & IR extenders
 * Software
