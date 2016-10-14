@@ -1,0 +1,5 @@
+<!DOCTYPE html> <html> <head lang="en"> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width"> <title></title> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="shortcut icon" href="favicon.ico"> <link rel="stylesheet" href="styles/vendor.51dd6dba.css"> <link rel="stylesheet" href="styles/brightsign.1ea7f101.css">  <body ng-app="bsApp"> <!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]--> <ui-view> <div class="loading"> <h1>Loading...</h1> </div> </ui-view> <div growl></div> <!--[if lt IE 9]>
+<script src="scripts/oldieshim.76f279db.js"></script>
+<![endif]--> <script src="scripts/vendor.93fc20a3.js"></script> <script src="scripts/brightsign.087c41eb.js"></script>  

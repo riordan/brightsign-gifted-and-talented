@@ -1,0 +1,22 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> <div class="container-fluid"> <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" ui-sref="landing"> <img src="images/bs-logo.558b3252.png" alt="BrightSign"> </a> </div> <!-- Collect the nav links, forms, and other content for toggling --> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <ul class="nav navbar-nav"> <li class="active"><a ui-sref="viewSnapshots">Snapshots</a></li> </ul> </div> </div> </nav> <script type="text/ng-template" id="bsnOverrideDialog.html"><div class="modal-header">
+        <h3 class="modal-title">BSN Override</h3>
+    </div>
+    <form name="bsnOverrideForm" role="form" style="margin-bottom: 2em">
+        <div class="modal-body">
+            <fieldset style="margin-top: 2em">
+                <legend>Choose the duration to override BSN settings</legend>
+                <div class="form-group">
+                    <label for="override-time">Time in Minutes</label>
+                    <select class="form-control" id="override-time" ng-model="bsn.remoteSnapshotBsnTimeoutMins"
+                            ng-options="choice as choice for choice in [1, 5, 10, 30, 60, 120]"></select>
+                </div>
+            </fieldset>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-primary"
+                    ng-click="ok(bsn, bsnOverrideForm.$valid)">
+                OK
+            </button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+    </form></script> <div class="container" style="margin-top: 20px"> <form role="form" name="configForm"> <div class="col-md-12"> <fieldset> <legend>Remote Snapshot Parameters</legend> <div class="row"> <div class="col-md-6" style="margin-bottom: 20px"> <div class="checkbox"> <input type="checkbox" class="checkbox" id="enableRemoteSnapshot" name="enableRemoteSnapshot" ng-model="bEnableRemoteSnapshot"> Enable remote snapshot </div> </div> </div> <div class="row"> <div class="col-md-6"> <div class="form-group"> <label for="remoteSnapshotInterval">Snapshot frequency (minutes)</label> <input type="text" class="form-control" id="remoteSnapshotInterval" name="remoteSnapshotInterval" ng-model="remoteSnapshotIntervalMins" placeholder="Remote Snapshot Interval" required ng-disabled="!bEnableRemoteSnapshot"> </div> </div> </div> <div class="row"> <div class="col-md-6"> <div class="form-group"> <label for="remoteSnapshotMaxImages">Number of snapshots to save (1-100)</label> <input type="number" class="form-control" id="remoteSnapshotMaxImages" name="remoteSnapshotMaxImages" ng-model="snapshotConfig.remoteSnapshotMaxImages" placeholder="Number to save" min="1" max="100" required ng-disabled="!bEnableRemoteSnapshot"> </div> </div> </div> <div class="row"> <div class="col-md-6"> <div class="form-group"> <label for="remoteSnapshotJpegQualityLevel">JPEG quality level (0-100)</label> <input type="number" class="form-control" id="remoteSnapshotJpegQualityLevel" name="remoteSnapshotJpegQualityLevel" ng-model="snapshotConfig.remoteSnapshotJpegQualityLevel" placeholder="JPEG quality level" min="0" max="100" required ng-disabled="!bEnableRemoteSnapshot"> </div> </div> </div> <div class="row"> <div class="col-md-6" style="margin-bottom: 20px; margin-left: 20px"> <div class="checkbox"> <input type="checkbox" class="checkbox" id="remoteSnapshotDisplayPortrait" name="remoteSnapshotDisplayPortrait" ng-model="bRemoteSnapshotDisplayPortrait" ng-disabled="!bEnableRemoteSnapshot"> Display snapshots in portrait mode </div> </div> </div> </fieldset> </div> <button class="btn btn-default btn-primary" style="margin-top: 20px" ng-click="setSnapshotConfiguration(configForm.$valid)">Save Configuration </button> <button class="btn btn-primary" style="margin-top: 20px" ng-click="cancelBsnOverride()" ng-disabled="snapshotConfig.overrideActive === 'no'"> Cancel BSN Override </button> </form> </div>

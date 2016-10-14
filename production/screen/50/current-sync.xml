@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sync version="1.0" name="Simple Networking">
+  <meta>
+    <client>
+      <limitStorageSpace>False</limitStorageSpace>
+      <base>http://gurley-private.brown.columbia.edu/screen/50</base>
+      <next>/current-sync.xml</next>
+      <event>EVENT</event>
+      <error>ERROR</error>
+      <deviceerror>DEVICEERROR</deviceerror>
+      <uploadusage>UPLOADUSAGE</uploadusage>
+      <getfile>GETFILE</getfile>
+      <uploadlogs />
+      <uploadsnapshots />
+      <timeBetweenNetConnects>300</timeBetweenNetConnects>
+      <contentDownloadsRestricted>no</contentDownloadsRestricted>
+      <playbackLoggingEnabled>yes</playbackLoggingEnabled>
+      <eventLoggingEnabled>yes</eventLoggingEnabled>
+      <diagnosticLoggingEnabled>yes</diagnosticLoggingEnabled>
+      <stateLoggingEnabled>yes</stateLoggingEnabled>
+      <variableLoggingEnabled>yes</variableLoggingEnabled>
+      <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
+      <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
+      <uploadLogFilesTime>0</uploadLogFilesTime>
+      <enableSerialDebugging>False</enableSerialDebugging>
+      <enableSystemLogDebugging>False</enableSystemLogDebugging>
+      <deviceScreenShotsEnabled>no</deviceScreenShotsEnabled>
+    </client>
+    <server>
+      <account>ACCOUNT</account>
+      <user />
+      <password />
+      <enableUnsafeAuthentication>False</enableUnsafeAuthentication>
+      <group>GROUPNAME</group>
+    </server>
+  </meta>
+  <files>
+    <download>
+      <name>autoplay-50-imagelist.xml</name>
+      <hash method="SHA1">c5758c13fa872be853bcd415d6c373973d3c1d3a</hash>
+      <size>10190</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/3/a/sha1-c5758c13fa872be853bcd415d6c373973d3c1d3a</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>50-imagelist.bml</name>
+      <hash method="SHA1">46bf02878dbf5c0f74c9b48f986b1524be30b78a</hash>
+      <size>10559</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/8/a/sha1-46bf02878dbf5c0f74c9b48f986b1524be30b78a</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-404.html</name>
+      <hash method="SHA1">c2bfa0a925e5bef3af0e154cdcd0b03f2bc00203</hash>
+      <size>3525</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/0/3/sha1-c2bfa0a925e5bef3af0e154cdcd0b03f2bc00203</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-bas.html</name>
+      <hash method="SHA1">22a33344ed53e1e8fc53512672269cd96a104125</hash>
+      <size>882</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/2/5/sha1-22a33344ed53e1e8fc53512672269cd96a104125</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-favicon.ico</name>
+      <hash method="SHA1">a1bae6f0516a56cf140aa7177e9559418fe8f85e</hash>
+      <size>1150</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/5/e/sha1-a1bae6f0516a56cf140aa7177e9559418fe8f85e</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-index.html</name>
+      <hash method="SHA1">87d1eb6a86ba28bfa8008f10be7136fb0ed15e0c</hash>
+      <size>201</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/0/c/sha1-87d1eb6a86ba28bfa8008f10be7136fb0ed15e0c</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-robots.txt</name>
+      <hash method="SHA1">9345c7fffd19714ba7169ea645f554dd6a1992a0</hash>
+      <size>34</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/a/0/sha1-9345c7fffd19714ba7169ea645f554dd6a1992a0</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.eot</name>
+      <hash method="SHA1">f3a9a3b609133c3d21d6b42abbf7f43bd111df72</hash>
+      <size>20335</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/7/2/sha1-f3a9a3b609133c3d21d6b42abbf7f43bd111df72</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.svg</name>
+      <hash method="SHA1">47fde98e2a90b356fb13984030103a308c62c030</hash>
+      <size>63154</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/3/0/sha1-47fde98e2a90b356fb13984030103a308c62c030</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.ttf</name>
+      <hash method="SHA1">aafafdc09404c4aa4447d7e898a2183def9cc1b1</hash>
+      <size>41280</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/b/1/sha1-aafafdc09404c4aa4447d7e898a2183def9cc1b1</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.woff</name>
+      <hash method="SHA1">22037a3455914e5662fa51a596677bdb329e2c5c</hash>
+      <size>23320</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/5/c/sha1-22037a3455914e5662fa51a596677bdb329e2c5c</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-html/landing/landing.html</name>
+      <hash method="SHA1">f71be1e9fc8dc38cadb5e3cbf8fcad4f7368a9e0</hash>
+      <size>886</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/e/0/sha1-f71be1e9fc8dc38cadb5e3cbf8fcad4f7368a9e0</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-html/remote-snapshot/configure-snapshots.html</name>
+      <hash method="SHA1">7b059c02bccb1dcb935699f6a3d7cdd21146e120</hash>
+      <size>4237</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/2/0/sha1-7b059c02bccb1dcb935699f6a3d7cdd21146e120</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-html/remote-snapshot/view-snapshots.html</name>
+      <hash method="SHA1">1bfae55189a796ae5b6daa90e56c09534312b251</hash>
+      <size>2243</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/5/1/sha1-1bfae55189a796ae5b6daa90e56c09534312b251</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-images/bg_main_background.ec008440.png</name>
+      <hash method="SHA1">af0bc48cf35bfaee4f21f99a8e48594fa514ee8f</hash>
+      <size>98</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/8/f/sha1-af0bc48cf35bfaee4f21f99a8e48594fa514ee8f</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-images/bs-logo.558b3252.png</name>
+      <hash method="SHA1">19240f186609ea1cbf728c3687f75e1bcb977987</hash>
+      <size>2914</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/8/7/sha1-19240f186609ea1cbf728c3687f75e1bcb977987</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-scripts/brightsign.087c41eb.js</name>
+      <hash method="SHA1">fa1157d9899362291d7f289aa53bc7ef54c0fd50</hash>
+      <size>8261</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/5/0/sha1-fa1157d9899362291d7f289aa53bc7ef54c0fd50</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-scripts/oldieshim.76f279db.js</name>
+      <hash method="SHA1">370f5dbee879aaad2c37b589123017530e064487</hash>
+      <size>20978</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/8/7/sha1-370f5dbee879aaad2c37b589123017530e064487</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-scripts/vendor.93fc20a3.js</name>
+      <hash method="SHA1">8cbef233e4e288f9f13a365362a84b051a6d30de</hash>
+      <size>329973</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/d/e/sha1-8cbef233e4e288f9f13a365362a84b051a6d30de</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-styles/brightsign.1ea7f101.css</name>
+      <hash method="SHA1">41989e2ff79dd7bd1b294cb382e654c234a38b46</hash>
+      <size>1276</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/4/6/sha1-41989e2ff79dd7bd1b294cb382e654c234a38b46</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-styles/vendor.51dd6dba.css</name>
+      <hash method="SHA1">01bea1dd2c0bfa193a9107f0d3e228817157c39c</hash>
+      <size>132563</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/9/c/sha1-01bea1dd2c0bfa193a9107f0d3e228817157c39c</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>autorun.brs</name>
+      <hash method="SHA1">77acf346c4ebcfe84877ef9c6494adb59604e82c</hash>
+      <size>1075732</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/2/c/sha1-77acf346c4ebcfe84877ef9c6494adb59604e82c</link>
+      <group>script</group>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>autoschedule.xml</name>
+      <hash method="SHA1">91a1e067188c1ebb626c98936d625dc4be80e424</hash>
+      <size>931</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/2/4/sha1-91a1e067188c1ebb626c98936d625dc4be80e424</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>resources.txt</name>
+      <hash method="SHA1">123580d24f72d21dbb92628f94e64a43ac0e69c1</hash>
+      <size>2299</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/c/1/sha1-123580d24f72d21dbb92628f94e64a43ac0e69c1</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>autoplugins.brs</name>
+      <hash method="SHA1">a0acb3e76c85e48d326e802428b23f0325667410</hash>
+      <size>146</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/1/0/sha1-a0acb3e76c85e48d326e802428b23f0325667410</link>
+      <group>script</group>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>_deviceWebPage.html</name>
+      <hash method="SHA1">ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</hash>
+      <size>116438</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/d/f/sha1-ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>_deviceIdWebPage.html</name>
+      <hash method="SHA1">a3eeb8009617a56fa412802e061ec931a6bd0fb1</hash>
+      <size>117474</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/b/1/sha1-a3eeb8009617a56fa412802e061ec931a6bd0fb1</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>featureMinRevs.xml</name>
+      <hash method="SHA1">27fe8c782b5d086e962d9f9cdf56afde25522709</hash>
+      <size>658</size>
+      <link>http://gurley-private.brown.columbia.edu/screen/50/pool/0/9/sha1-27fe8c782b5d086e962d9f9cdf56afde25522709</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <delete>
+      <pattern>*.brs</pattern>
+    </delete>
+    <delete>
+      <pattern>*.rok</pattern>
+    </delete>
+    <delete>
+      <pattern>*.bsfw</pattern>
+    </delete>
+    <ignore>
+      <pattern>*</pattern>
+    </ignore>
+  </files>
+</sync>

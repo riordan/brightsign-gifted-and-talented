@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sync version="1.0" name="Simple Networking">
+  <meta>
+    <client>
+      <base>http://gurley-private.brown.columbia.edu/screen/50</base>
+      <next>/current-sync.xml</next>
+      <event>EVENT</event>
+      <error>ERROR</error>
+      <deviceerror>DEVICEERROR</deviceerror>
+      <uploadusage>UPLOADUSAGE</uploadusage>
+      <nowplaying>NOWPLAYING</nowplaying>
+      <getfile>GETFILE</getfile>
+      <uploadlogs />
+      <uploadsnapshots />
+      <timezone>EST</timezone>
+      <unitName>50</unitName>
+      <unitNamingMethod>appendUnitIDToUnitName</unitNamingMethod>
+      <unitDescription />
+      <timeBetweenNetConnects>300</timeBetweenNetConnects>
+      <contentDownloadsRestricted>no</contentDownloadsRestricted>
+      <timeBetweenHeartbeats>900</timeBetweenHeartbeats>
+      <heartbeatsRestricted>no</heartbeatsRestricted>
+      <specifyHostname>no</specifyHostname>
+      <useProxy>no</useProxy>
+      <useWireless>no</useWireless>
+      <timeServer>ntp://gurley-private.brown.columbia.edu</timeServer>
+      <useDHCP>yes</useDHCP>
+      <rateLimitModeOutsideWindow>default</rateLimitModeOutsideWindow>
+      <rateLimitRateOutsideWindow>0</rateLimitRateOutsideWindow>
+      <rateLimitModeInWindow>unlimited</rateLimitModeInWindow>
+      <rateLimitRateInWindow>0</rateLimitRateInWindow>
+      <rateLimitModeInitialDownloads>unlimited</rateLimitModeInitialDownloads>
+      <rateLimitRateInitialDownloads>0</rateLimitRateInitialDownloads>
+      <lwsConfig>none</lwsConfig>
+      <lwsUserName />
+      <lwsPassword />
+      <lwsEnableUpdateNotifications>no</lwsEnableUpdateNotifications>
+      <playbackLoggingEnabled>yes</playbackLoggingEnabled>
+      <eventLoggingEnabled>yes</eventLoggingEnabled>
+      <stateLoggingEnabled>yes</stateLoggingEnabled>
+      <diagnosticLoggingEnabled>yes</diagnosticLoggingEnabled>
+      <variableLoggingEnabled>yes</variableLoggingEnabled>
+      <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
+      <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
+      <uploadLogFilesTime>0</uploadLogFilesTime>
+      <networkConnectionPriorityWired>0</networkConnectionPriorityWired>
+      <networkConnectionPriorityWireless>1</networkConnectionPriorityWireless>
+      <contentDataTypeEnabledWired>True</contentDataTypeEnabledWired>
+      <textFeedsDataTypeEnabledWired>True</textFeedsDataTypeEnabledWired>
+      <healthDataTypeEnabledWired>True</healthDataTypeEnabledWired>
+      <mediaFeedsDataTypeEnabledWired>True</mediaFeedsDataTypeEnabledWired>
+      <logUploadsDataTypeEnabledWired>True</logUploadsDataTypeEnabledWired>
+      <dwsEnabled>no</dwsEnabled>
+      <dwsPassword />
+      <deviceScreenShotsEnabled>no</deviceScreenShotsEnabled>
+      <deviceScreenShotsInterval>900</deviceScreenShotsInterval>
+      <deviceScreenShotsCountLimit>5</deviceScreenShotsCountLimit>
+      <deviceScreenShotsQuality>50</deviceScreenShotsQuality>
+      <deviceScreenShotsDisplayPortrait>False</deviceScreenShotsDisplayPortrait>
+      <idleScreenColor>FFE10071</idleScreenColor>
+      <networkDiagnosticsEnabled>False</networkDiagnosticsEnabled>
+      <testEthernetEnabled>True</testEthernetEnabled>
+      <testWirelessEnabled>False</testWirelessEnabled>
+      <testInternetEnabled>True</testInternetEnabled>
+      <BrightWallName />
+      <BrightWallScreenNumber />
+      <useCustomSplashScreen>False</useCustomSplashScreen>
+    </client>
+    <server>
+      <account>ACCOUNT</account>
+      <user />
+      <password />
+      <enableUnsafeAuthentication>False</enableUnsafeAuthentication>
+      <group>Simple Networking</group>
+    </server>
+  </meta>
+  <files />
+</sync>

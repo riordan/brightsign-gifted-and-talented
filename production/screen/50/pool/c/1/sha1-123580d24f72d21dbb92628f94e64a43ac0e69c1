@@ -1,0 +1,71 @@
+﻿[CLOCK_DATE_FORMAT]
+eng "%A, %B %e, %Y"
+fre "%a %e %b %y"
+ita "%A, %B %e, %Y"
+ger "%A, %e. %B %Y"
+spa "%A, %e de %B, %Y"
+dut "%A, %e. %B %Y"
+swe "%y/%m/%d"
+
+[CLOCK_TIME_FORMAT]
+eng "%l:%M"
+fre "%k:%M"
+ita "%l:%M"
+ger "%k:%M"
+spa "%k:%M"
+dut "%k:%M"
+swe "%H:%M"
+
+[CLOCK_TIME_AM]
+eng "AM"
+fre "AM"
+ita "AM"
+ger "AM"
+spa "AM"
+dut "AM"
+swe "AM"
+
+[CLOCK_TIME_PM]
+eng "PM"
+fre "PM"
+ita "PM"
+ger "PM"
+spa "PM"
+dut "PM"
+swe "PM"
+
+[CLOCK_DATE_SHORT_MONTH]
+eng "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+fre "Jan|Fév|Mar|Avr|Mai|Jun|Jul|Aou|Sep|Oct|Nov|Déc"
+ita "Gen|Feb|Mar|Apr|Mag|Giu|Lug|Ago|Set|Ott|Nov|Dic"
+ger "Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Set|Okt|Nov|Dez"
+spa "Ene|Feb|Mar|Abr|May|Jun|Jul|Ago|Sep|Oct|Nov|Dic"
+dut "Jan|Feb|Mar|Apr|Mei|Jun|Jul|Aug|Sep|Okt|Nov|Dec"
+swe "Jan|Feb|Mar|Apr|Maj|Jun|Jul|Aug|Sep|Okt|Nov|Dec"
+
+[CLOCK_DATE_LONG_MONTH]
+eng "January|February|March|April|May|June|July|August|September|October|November|December"
+fre "Janvier|Février|Mars|Avril|Mai|Juin|Juillet|Aout|Septembre|Octobre|Novembre|Décembre"
+ita "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre"
+ger "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember"
+spa "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre"
+dut "Januari|Februari|Maart|April|Mei|Juni|Juli|Augustus|September|Oktober|November|December"
+swe "Januari|Februari|Mars|April|Maj|Juni|Juli|Augusti|September|Oktober|November|December"
+
+[CLOCK_DATE_SHORT_DAY]
+eng "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
+fre "Dim|Lun|Mar|Mer|Jeu|Ven|Sam"
+ita "Dom|Lun|Mar|Mer|Gio|Ven|Sab"
+ger "So|Mo|Di|Mi|Do|Fr|Sa"
+spa "Dom|Lun|Mar|Mié|Jue|Vie|Sáb"
+dut "Zo|Ma|Di|Wo|Do|Vr|Za"
+swe "Sön|Mån|Tis|Ons|Tor|Fre|Lör"
+
+[CLOCK_DATE_LONG_DAY]
+eng "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
+fre "Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi"
+ita "Domenica|Lunedì|Martedì|Mercoledì|Giovedì|Venerdì|Sabato"
+ger "Sonntag|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag"
+spa "Domingo|Lunes|Martes|Miércoles|Jueves|Viernes|Sábado"
+dut "Zondag|Maandag|Dinsdag|Woensdag|Donderdag|Vrijdag|Zaterdag"
+swe "Söndag|Måndag|Tisdag|Onsdag|Torsdag|Fredag|Lördag"
